@@ -38,7 +38,14 @@ A command line application that generates team info webpage
 Example visual
 ![image](https://user-images.githubusercontent.com/92122549/153797036-75e1b96d-0112-4f86-8612-ee70746f8e0b.png)
 
-[Demo video](https://youtu.be/2ncwUC635Ew)
+[Team profile Generator Demo video](https://youtu.be/2ncwUC635Ew)
+
+# Testing
+Example
+
+![image](https://user-images.githubusercontent.com/92122549/153799565-3225c809-3c9b-4aab-a82a-1511efe68093.png)
+
+[Test Demo video](https://youtu.be/j9pqkyCybjY)
 
 
 

@@ -40,7 +40,7 @@ Example visual
 
 [Team profile Generator Demo video](https://youtu.be/2ncwUC635Ew)
 
-# Testing
+# Testing Demo:
 Example
 
 ![image](https://user-images.githubusercontent.com/92122549/153799565-3225c809-3c9b-4aab-a82a-1511efe68093.png)

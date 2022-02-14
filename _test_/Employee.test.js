@@ -7,7 +7,7 @@ const employee= new Employee("tsira", '123456', "testemail@testdomain.com");
 test('test if the employee object constructor is correct', () => {
     expect(employee.name).toBe('tsira');
     expect(employee.id).toBe('123456');
-    expect(employee.email).toBe('tsitestemail@testdomain.comra');
+    expect(employee.email).toBe('testemail@testdomain.com');
 });
 
 

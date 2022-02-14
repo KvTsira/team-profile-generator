@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/KvTsira/team-profile-generator#readme",
   "devDependencies": {
-    "jest": "^27.5.0"
+    "jest": "^27.5.0",
+    "jest-cli": "^27.5.1"
   },
   "dependencies": {
     "inquire": "^0.4.8",

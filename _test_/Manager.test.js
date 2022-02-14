@@ -14,7 +14,7 @@ test('test the manager object constructor', () => {
 
 //test for the methods
 test('test if the getName methods returns the name', () => {
-    expect(manager.getName()).toBe('lindesy');
+    expect(manager.getName()).toBe('lindsey');
 });
 
 test('test if the getID methods returns the ID', () => {

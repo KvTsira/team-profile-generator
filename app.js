@@ -1,6 +1,8 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
+
+//no need to require Employee class since the following three classes inherit it
 const Manager = require('./lib/manager');
 const Engineer = require('./lib/engineer');
 const Intern = require('./lib/intern');
@@ -8,7 +10,7 @@ const Intern = require('./lib/intern');
 const generateSite = require('./src/generate-site');
 const path = require('path');
 const OUTPUT_DIR = path.resolve(__dirname, 'output');
-const outputPath = path.join(OUTPUT_DIR, 'devTeam.html');
+const outputPath = path.join(OUTPUT_DIR, 'Team.html');
 
 //create an empty array
 let devTeam = [];
@@ -70,9 +72,9 @@ const addManager = () => {
         }
 
     ]).then(answers => {
-        console.log(answers);
+        //console.log(answers);
         //create a manager object
-        const manager = new Manager(answers.name, answers.id, answers.emain, answers.officeNumber);
+        const manager = new Manager(answers.name, answers.id, answers.email, answers.officeNumber);
         //add Manager to the devTeam array
         devTeam.push(manager);
         //prompt the options menu
@@ -90,7 +92,7 @@ const promptOptions = () => {
             choices: ["Add an Engineer", "Add an Intern", "Complete building my development team!"],
         }
     ]).then(data => {
-        switch (data.optionMenu) {
+        switch (data.optionsMenu) {
             case "Add an Engineer":
                 addEngineer();
                 break;

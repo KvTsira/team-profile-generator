@@ -38,7 +38,8 @@ A command line application that generates team info webpage
 Example visual
 ![image](https://user-images.githubusercontent.com/92122549/153797036-75e1b96d-0112-4f86-8612-ee70746f8e0b.png)
 
-<iframe src="https://youtu.be/2ncwUC635Ew" width="640" height="480"></iframe>
+[Demo video](https://youtu.be/2ncwUC635Ew)
+
 
 
 

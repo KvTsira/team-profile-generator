@@ -18,7 +18,7 @@ const generateTeam = (team) => {
                 <ul>
                     <li>ID: ${manager.id}</li>
                     <li>Email: <span id="email"><a href="mailto:${manager.email}">${manager.email}</a></span></li>
-                    <li>Office Number: ${manager.officeNumber}</li>
+                    <li>Office Number: ${manager.officeNumber}</li>clear
                 </ul>
             </div>
         </div>
